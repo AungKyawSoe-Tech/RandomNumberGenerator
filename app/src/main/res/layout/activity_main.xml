@@ -10,6 +10,16 @@
         android:id="@+id/randomNumberTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/generateButton"/>
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textSize="48sp"
         android:text="0"
         app:layout_constraintBottom_toTopOf="@+id/generateButton"
@@ -27,6 +37,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/randomNumberTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
